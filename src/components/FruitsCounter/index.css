@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.fruits-counter-bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1px; */
+}
+
+.fruits-counter-container {
+  background-color: white;
+  width: 95%;
+  height: 95%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.image {
+  height: 250px;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #007bff;
+  border-radius: 12px;
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
